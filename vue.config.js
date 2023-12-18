@@ -4,7 +4,7 @@ module.exports = {
     port: 8081, // 修改服务启动的端口
     proxy: {
       '/api': {
-        target: 'http://localhost:8000', // 修改访问的后端地址
+        target: 'http://localhost:3000', // 修改访问的后端地址
         // changeOrigin: true,
       }
     }
